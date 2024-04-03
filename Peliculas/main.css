@@ -1,0 +1,43 @@
+.tamaño {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 2;
+}
+
+.alineamiento {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    /*grid-template-rows: 350px;*/
+}
+
+.centrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja {
+    background-image: url(../Peliculas/Imagenes/fondo.jpg);
+    background-size: cover;
+}
+
+.color {
+    color: white;
+}
+
+.nombre-pelis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+}
+
+.fondo-caja {
+    background-color: rgb(34, 34, 34);
+    border-radius: 10px;
+}
+
+.parrafo-cursiva {
+    font-style: italic;
+  }
