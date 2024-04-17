@@ -18,10 +18,37 @@
 }
 
 .centrar2 {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-auto-rows: auto;
+    color: rgb(31, 31, 31);
+    gap:20px;
+}
+
+.alinear-foto{
+    width: 100%;
+    object-fit: contain;
+    aspect-ratio: 16 / 9;
+}
+
+.fondo-caja {
+    background-color: #f27b34;
+    border-radius: 10px;
+}
+
+.fondo-caja2 {
+    background-color: #688f3c;
+    border-radius: 10px;
+}
+
+.fondo-caja3 {
+    background-color: #94d4d3;
+    border-radius: 10px;
+}
+
+.alinear-caja{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    color: rgb(3, 0, 179);
 }
 
