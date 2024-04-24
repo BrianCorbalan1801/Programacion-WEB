@@ -5,8 +5,7 @@
 
 2-¿Cuál es la propiedad de CSS que permite definir el espacio entre los elementos hijos dentro de un contenedor flex o grid?
 
-- 
-La propiedad CSS gap define el espacio entre elementos dentro de contenedores flex o grid.
+- La propiedad CSS gap define el espacio entre elementos dentro de contenedores flex o grid.
 
 3-¿Cuál es la diferencia entre justify-content y align-items en un contenedor flex?
 

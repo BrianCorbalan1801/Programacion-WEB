@@ -52,3 +52,13 @@
     align-items: center;
 }
 
+.algo {
+    display: flex;
+    justify-content: center;
+}
+
+.algo2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
