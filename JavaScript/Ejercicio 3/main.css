@@ -1,0 +1,15 @@
+.alineamientoPrincipal{
+    display: flex;
+    justify-content: center;
+     }
+    .alineadoVertical{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+.fondo-caja{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(231, 67, 67);
+    width: 600px;
+    height: 500px;
+}
