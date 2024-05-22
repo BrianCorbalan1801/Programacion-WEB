@@ -1,0 +1,34 @@
+1- ¿Qué se imprimirá en la consola al ejecutar el siguiente código? y por que? 
+
+const person = {
+  name: 'John',
+  age: 30,
+  hobbies: ['reading', 'music', 'sports']
+}
+//desestructuracion           
+const { 
+  weight = 70,
+  height = 180,
+  } = person
+console.log(weight, height)
+
+Respuesta: En la consola se imprimira "70 180". 
+Porque la consola muestra 2 parametros y hace que esos 2 parametros se muestren en la consola
+
+2- ¿Qué se imprimirá en la consola al ejecutar el siguiente código? Y por que?
+
+const person = {
+  name: 'John',
+  age: 30,
+  hobbies: ['reading', 'music', 'sports']
+}
+          
+const { age: personAge } = person
+console.log(age)
+
+Respuesta: Nos daria error. Porque no se encuentra age, se reasigna el valor de age y pasa a llamarse personAge
+ReferenceError: age is not defined
+
+3- ¿Cómo se llama el atajo que nos permite recuperar el valor de una propiedad de un objeto?
+
+-El atajo que nos permite recuperar el valor es desestructuracion
