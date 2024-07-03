@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: 'Expletus-Sans', sans-serif;
+  background: linear-gradient(to top, #e068d4, #f1cfee);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.App-header {
+  background-color: rgb(224, 130, 224);
+  padding: 20px;
+  box-shadow: 0 5px 4px rgb(174, 27, 233);
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+input, select {
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px 0;
+  width: calc(100% - 22px);
+  box-sizing: border-box;
+  border: 1px solid rgba(177, 30, 214, 0.5);
+  border-radius: 4px;
+  outline: none;
+}
+
+input:focus, select:focus {
+  border-color: #ca42f4;
+  box-shadow: 0 1px 6px rgba(177, 30, 214, 0.5);
+}
+
+span {
+  display: block;
+  margin: 10px 0;
+  font-size: 16px;
+  color: #202124;
+}
+
+@media (min-width: 768px) {
+  input, select {
+    width: calc(50% - 22px);
+    margin: 10px 10px;
+  }
+}
