@@ -1,0 +1,28 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #696969;
+  color: #333333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #e4002b; /* Rojo de River Plate */
+}
+
+a {
+  color: #e4002b;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Puedes añadir más estilos globales aquí */
