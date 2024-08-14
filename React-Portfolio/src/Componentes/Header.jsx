@@ -1,5 +1,6 @@
-// src/Header.js
+// src/components/Header.js
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
@@ -8,24 +9,19 @@ const Header = () => {
       <nav>
         <ul className="nav-links">
           <li>
-            <a href="#home">Inicio</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#about">Acerca</a>
+            <Link to="/Proyecto">Proyectos</Link>
           </li>
           <li>
-            <a href="#projects">Proyectos</a>
+            <Link to="/contacto">Contacto</Link>
           </li>
           <li>
-            <a href="#contact">Contacto</a>
+            <Link to="/Info">Info Personal</Link>
           </li>
         </ul>
       </nav>
-      <div className="contact-email">
-        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqbQcsCFqpZwmdxMwppQtVKDQbhTvVXZzTnQCbXvDKfppGDjHfwVXgBLwSLqkmBwgThsnV">
-          bcorbalanbenitez@gmail.com
-        </a>
-      </div>
     </header>
   );
 };

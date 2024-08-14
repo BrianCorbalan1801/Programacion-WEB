@@ -1,11 +1,31 @@
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* src/components/Footer.css */
+
+footer {
+  background-color: rgba(10, 10, 10, 0.9);
+  color: white;
   padding: 20px;
-  background-color: #494949;
-  color: #ffffff;
+  text-align: center;
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.social-links a:hover {
+  color: #353535;
 }

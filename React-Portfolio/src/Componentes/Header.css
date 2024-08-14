@@ -1,28 +1,31 @@
+/* src/components/Header.css */
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-color: #5e0000;
   padding: 20px;
-  background-color: #151515;
-  border-bottom: 3px solid #e4002b;
 }
 
-.logo {
-  height: 50px;
+.navbar {
+  display: flex;
+  justify-content: center;
 }
 
-nav ul {
+.nav-links {
   list-style: none;
   display: flex;
   gap: 20px;
 }
 
-nav ul li a {
-  text-decoration: none;
-  color: #e4002b;
+.nav-links a {
+  color: #fff;
+  text-transform: uppercase;
   font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
 }
 
-nav ul li a:hover {
-  color: #000000;
+.nav-links a:hover {
+  background-color: #7a0000;
+  color: #585858;
+  padding: 10px 15px;
+  border-radius: 5px;
 }
